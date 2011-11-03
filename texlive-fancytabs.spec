@@ -1,3 +1,9 @@
+# revision 23839
+# category Package
+# catalog-ctan /macros/latex/contrib/fancytabs
+# catalog-date 2011-09-04 11:56:55 +0200
+# catalog-license lppl1.3
+# catalog-version 1.6
 Name:		texlive-fancytabs
 Version:	1.6
 Release:	1
@@ -43,6 +49,7 @@ TikZ from the pgf bundle.
 #- source
 %doc %{_texmfdistdir}/source/latex/fancytabs/fancytabs.dtx
 %doc %{_texmfdistdir}/source/latex/fancytabs/fancytabs.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ TikZ from the pgf bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
