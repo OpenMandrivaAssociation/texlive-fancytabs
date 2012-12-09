@@ -1,12 +1,12 @@
-# revision 27684
+# revision 23839
 # category Package
 # catalog-ctan /macros/latex/contrib/fancytabs
-# catalog-date 2012-09-17 18:38:18 +0200
+# catalog-date 2011-09-04 11:56:55 +0200
 # catalog-license lppl1.3
-# catalog-version 1.8
+# catalog-version 1.6
 Name:		texlive-fancytabs
-Version:	1.8
-Release:	1
+Version:	1.6
+Release:	2
 Summary:	Fancy page border tabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytabs
@@ -49,3 +49,17 @@ TikZ from the pgf bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6-2
++ Revision: 751790
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.6-1
++ Revision: 718417
+- texlive-fancytabs
+- texlive-fancytabs
+- texlive-fancytabs
+- texlive-fancytabs
+
