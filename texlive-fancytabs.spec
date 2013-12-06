@@ -6,7 +6,7 @@
 # catalog-version 1.8
 Name:		texlive-fancytabs
 Version:	1.8
-Release:	2
+Release:	3
 Summary:	Fancy page border tabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytabs
