@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.8
 Name:		texlive-fancytabs
-Version:	1.8
-Release:	9
+Version:	1.9
+Release:	1
 Summary:	Fancy page border tabs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytabs
