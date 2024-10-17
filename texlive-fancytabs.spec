@@ -3,7 +3,7 @@ Version:	41549
 Release:	2
 Summary:	Fancy page border tabs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancytabs
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fancytabs
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytabs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancytabs.doc.r%{version}.tar.xz
